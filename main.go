@@ -9,7 +9,6 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/beckxie/go-utils/notify"
-	_ "github.com/go-sql-driver/mysql"
 )
 
 var wg sync.WaitGroup
