@@ -4,7 +4,7 @@ for loop check costco online inventory and push notifications via Instant Messag
 
 # How to use:
 
-## Edit variable in `main.go` if you need change `product-url`:
+## Edit variable in `main.go` if you need to change `product-url`:
 
 ```
 urls := []string{
