@@ -14,7 +14,7 @@ For loop check `Costco Online` inventory and push notifications via Instant Mess
 ```
 Usage:
   -i int
-        scan interval (default 60)
+        Crawler interval(sec): (default 5)
   -t string
         (require) line notify token
   -v    version
