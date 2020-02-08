@@ -1,8 +1,24 @@
-# COSTCOinventoryCheck
+# COSTCO inventory Check
 
-for loop check costco online inventory and push notifications via Instant Messaging.
+For loop check `Costco Online` inventory and push notifications via Instant Messaging.
+
+# Costco Online Support:
+- [Taiwan](https://www.costco.com.tw/)
+
+# IM Support:
+- [LINE Notify](https://notify-bot.line.me/)
+
 
 # How to use:
+## Usage
+```
+Usage:
+  -i int
+        scan interval (default 60)
+  -t string
+        (require) line notify token
+  -v    version
+```
 
 ## Edit variable in `main.go` if you need to change `product-url`:
 
@@ -14,17 +30,3 @@ urls := []string{
 		"https://www.costco.com.tw/Electronics/Apple-Devices/iPhone/iPhone-11-Pro-256GB-Midnight-Green/p/125293", //iPhone 11 Pro 256GB Midnight Green
 	}
 ```
-
-## Default value:
-
-crawler interval(sleep): 
-  - 5 seconds
-
-urls: 
-  - iPhone 11 128G White
-  - iPhone 11 128G Purple
-  - iPhone 11 128G Green
-  - iPhone 11 Pro 256GB Midnight Green
-
-# IM Support:
-- [LINE Notify](https://notify-bot.line.me/)
