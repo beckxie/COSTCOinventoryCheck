@@ -1,4 +1,4 @@
-module github.com/beckxie/COSTCOinventoryCheck
+module github.com/beckxie/COSTIC
 
 go 1.13
 

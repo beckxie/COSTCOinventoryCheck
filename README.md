@@ -1,4 +1,5 @@
-# COSTCO inventory Check
+# COSTIC
+> COSTCO inventory Check
 
 For loop check `Costco Online` inventory and push notifications via Instant Messaging.
 

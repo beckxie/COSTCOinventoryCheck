@@ -45,13 +45,13 @@ func main() {
 	flag.IntVar(&intervalSecond, "i", intervalSecondDefault, "Crawler interval(sec)")
 	flag.Parse()
 
-	fmt.Println("version:" + version)
 	switch {
 	case showVersion:
+		fmt.Println("version:" + version)
 		return
 	case len(lineToken) <= 0:
 		fmt.Println("error: Line Notify Token is required.")
-		// return
+		return
 	case intervalSecond <= 0:
 		fmt.Println("warn: scan interval error.")
 		intervalSecond = intervalSecondDefault
