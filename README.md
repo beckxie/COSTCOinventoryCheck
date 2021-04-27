@@ -1,4 +1,6 @@
 # COSTIC
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbeckxie%2FCOSTIC.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbeckxie%2FCOSTIC?ref=badge_shield)
+
 > COSTCO inventory Check
 
 For loop check `Costco Online` inventory and push notifications via Instant Messaging.
@@ -31,3 +33,6 @@ urls := []string{
 		"https://www.costco.com.tw/Electronics/Apple-Devices/iPhone/iPhone-11-Pro-256GB-Midnight-Green/p/125293", //iPhone 11 Pro 256GB Midnight Green
 	}
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbeckxie%2FCOSTIC.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbeckxie%2FCOSTIC?ref=badge_large)
